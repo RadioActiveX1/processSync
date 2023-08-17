@@ -17,8 +17,11 @@ In this example, we have a set of threads that need to print messages concurrent
 
 ## Code Explanation
 mutex mtx;: A mutex object for synchronization.
+
 void printNumber(int num): Function to print a message with the thread number.
-int main(): Main function where threads are created and joined.
+
+int main(): Main function where threads are created and joined
+
 The code demonstrates how to use mutexes for protecting critical sections to ensure proper synchronization among threads.
 
 ## Additional Notes
